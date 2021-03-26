@@ -1,0 +1,29 @@
+@charset "utf-8";
+/* CSS Document */
+/*問い合わせボタン*/
+.contact_btn {
+	margin-bottom: 80px;
+}
+.contact_btn a::before {
+	content: url(../img/kojin/ico_contact.jpg);
+	margin-right: 5px;
+	position: relative;
+	bottom: -1px;
+}
+.contact_btn a {
+	border: 1px solid #103C5F;
+	padding: 20px 90px;
+}
+.contact_btn p {
+	text-align: center;
+}
+.contact_btn a:hover {
+	background-color: #F4F4F2;
+	opacity: 1;
+}
+
+@media screen and (max-width:768px) {
+.contact_btn a {
+	padding: 20px 20%;
+}
+}
